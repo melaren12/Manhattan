@@ -1,34 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
- 
-}
-header{
-    background-color: #210E09;
-}
-.header{
-    width: 80%;
-    margin: 15px auto;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.header li{
-    color: white;
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px;
-}
-.btn{
-    padding-top: 7px;
-}
-.btn button{
-    background-color: #210E09;
-    padding: 5px 10px;
-    color: white;
-    border-color: #D5621D;
-    cursor: pointer;
-}
+
+
 .firstscreen{
     width: 80%;
     margin: 0 auto;
@@ -108,6 +79,7 @@ section{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    
 }
 .h3{
     padding: 5px 10px;
@@ -120,30 +92,33 @@ section{
     color: white;
     font-size: 40px;
 }
+.kitchen_menu_all{
+    display: flex;
+    position: relative;
+}
 .kitchen_menu{
-    display: grid;
+    width: 100%;
+    height: 100%;
+    display: grid;    
     grid-template-columns: repeat(4, auto);
     gap: 20px 80px;
     justify-content: center;
 }
-.img1{
+.img1, .img2{
+    position: absolute;
     background-color: #D5621D;
     cursor: pointer;
     padding: 5px;
     width: 20px;
     height: 20px;
-    grid-row-start: 3;
-    grid-row-end: 4;
+}
+.img1{
+    left: 0;
+    top: 46.5%;
 }
 .img2{
-    background-color: #D5621D;
-    cursor: pointer;
-    padding: 5px;
-    width: 20px;
-    height: 20px;
-    grid-column-start: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    right: 0;
+    top: 46.5%;
 }
 .dish1, .dish3, .dish5, .dish7{
     grid-column-start: 2;
@@ -265,35 +240,7 @@ section{
     border-color: #D5621D;
     cursor: pointer;
 }
-.contacts{
-    width: 80%;
-    margin: 150px auto 0;
-    text-align: center;
-}
-.cont_map{
-    display: flex;
-}
-.cont{
-    flex: 1;
-    padding: 50px 50px 30px;
-    text-align: left;
-    border: 1px solid;
-    border-color: #D5621D;
-    border-radius: 5px;
-    color: white;
-}
-.cont p, hr{
-    margin: 20px 0;
-}
-.map img{
-    width: 100%;
-    height: 100%;
-}
-.map{
-    flex: 2;
-    margin-left: 25px;
-    border-radius: 5px;
-}
+
 .vector{
     position: absolute;
     bottom: 20px;
