@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+header{
+    background-color: #210E09;
+}
+.header{
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn{
+    padding-top: 7px;
+}
+.btn button{
+    background-color: #210E09;
+    padding: 5px 10px;
+    color: white;
+    border-color: #D5621D;
+    cursor: pointer;
+}
+.firstscreen{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.screen1{
+    margin-right: 5px;
+    width: 100%;
+    height: 485px;
+    /*background-image: url("img/rectangle30.png");
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    flex: 1.5;
+    position: relative;
+}
+.screen1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.screentext{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    background-color: none;
+}
+.screentext h4{
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+.screentext p{
+    color: white;
+    font-size: 30px;
+}
+.screen2{
+    width: 100%;
+    background-color: rgba(213, 99, 29, 0.1);
+    margin-left: 5px;
+    border-radius: 5px;
+    flex: 1;
+}
+.screen2_text{
+    margin: 0 auto;
+    text-align: center;
+    /*padding: 10px 0;*/
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.bl{
+    padding: 10px 0;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.sk{   
+    padding: 10px 0;
+    background-color: rgba(213, 99, 29, 0.05);
+    cursor: pointer;
+}
+
+.screen2_img{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 10px;
+    justify-content: space-between;
+}
+section{
+    background-color: #210E09;
+    padding-top: 100px;
+    position: relative;
+}
+.kitchen{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.h3{
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 7px;
+}
+.h2{
+    margin: 40px 0 80px;
+    color: white;
+    font-size: 40px;
+}
+.kitchen_menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px 80px;
+    justify-content: center;
+}
+.img1{
+    background-color: #D5621D;
+    cursor: pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.img2{
+    background-color: #D5621D;
+    cursor: pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.dish1, .dish3, .dish5, .dish7{
+    grid-column-start: 2;
+}
+.dish{
+    display: flex;
+    text-align: left;
+    color: white;
+}
+.about_dish{
+    margin-left: 10px;
+}
+.p1{
+    color: #D5621D;
+}
+.nazv{
+    display: flex;
+    justify-content: space-between;
+}
+.nazv p{
+    padding: 5px 10px;
+    border: 1px solid #D5621D;
+    border-radius: 5px;
+}
+.menu_btn{
+    margin: 97px auto;
+    padding: 15px 30px;
+    background-color: #D5621D;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.events_tourists{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.events_tourists h4{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+}
+.events_tourists h2{
+    margin: 40px 0 35px;
+}
+.image{
+    margin: 0 44px;
+}
+.events_tourists button{
+    background-color: #210E09;
+    border-color: #D5621D;
+    color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.party{
+    width: 70%;
+    margin: 150px auto 0;
+    text-align: center;
+}
+.rider{
+    display: flex;
+    margin-right: 65px;
+}
+.tabs{
+    width: 100%;
+    flex: 1;
+}
+.frame, .div{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.frame p{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.frame{
+    background-color: #D5621D;
+}
+.div{
+    background: rgba(213, 98, 29, 0.1);
+    margin-top: 10px;
+}
+.tabs img{
+    cursor: pointer;
+}
+.sound_eng{
+    margin-left: 65px;
+    flex: 1;
+    color: white;
+}
+.eng{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.eng img{
+    width: 100%;
+}
+.contact{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.contact div{
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid;
+    border-color: #D5621D;
+    cursor: pointer;
+}
+.contacts{
+    width: 80%;
+    margin: 150px auto 0;
+    text-align: center;
+}
+.cont_map{
+    display: flex;
+}
+.cont{
+    flex: 1;
+    padding: 50px 50px 30px;
+    text-align: left;
+    border: 1px solid;
+    border-color: #D5621D;
+    border-radius: 5px;
+    color: white;
+}
+.cont p, hr{
+    margin: 20px 0;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.map{
+    flex: 2;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.vector{
+    position: absolute;
+    bottom: 20px;
+    right: 1%;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+.vector img{
+    width: 100%;
+    border-radius: 25px;
+    background-color: #210E09;
+}
+footer{
+    padding-top: 150px;
+    background-color: #210E09;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    opacity: 0.5;
+    padding-bottom: 15px;
+}
+@media(max-width:1100px){
+    .firstscreen{
+        display: block;
+    }
+}
+@media(max-width:1000px){
+    .cont_map{
+        display: block;
+    }
+}
+@media(max-width:1000px){
+    .events_tourists{
+        display: block;
+    }
+}
+@media(max-width:1000px){
+    .rider{
+        display: block;
+    }
+}
