@@ -1,33 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color: #210E09;
-}
-.header{
-    
-    width: 80%;
-    margin: 15px auto 0;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.header li{
-    color: white;
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px;
-}
-.btn{
-    padding-top: 7px;
-}
-.btn button{
-    padding: 5px 10px;
-    color: white;
-    border-color: #D5621D;
-    cursor: pointer;
-}
+
 section{
     background-color: #210E09;
 }
@@ -98,48 +69,4 @@ section{
 .div1:hover .hover{
     display: block;
     opacity: 1;
-}
-.contacts{
-    width: 80%;
-    margin: 150px auto 0;
-    text-align: center;
-}
-.cont_map{
-    display: flex;
-}
-.cont{
-    flex: 1;
-    padding: 50px 50px 30px;
-    text-align: left;
-    border: 1px solid;
-    border-color: #D5621D;
-    border-radius: 5px;
-    color: white;
-}
-.cont p, hr{
-    margin: 20px 0;
-}
-.map img{
-    width: 100%;
-    height: 100%;
-}
-.map{
-    flex: 2;
-    margin-left: 25px;
-    border-radius: 5px;
-}
-footer{
-    padding-top: 150px;
-    background-color: #210E09;
-}
-.footer{
-    width: 80%;
-    margin: 0 auto;
-}
-.footer div{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    opacity: 0.5;
-    padding-bottom: 15px;
 }
