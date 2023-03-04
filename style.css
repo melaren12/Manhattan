@@ -71,6 +71,7 @@
     justify-content: space-between;
 }
 section{
+    max-width: 1440px;
     background-color: #210E09;
     padding-top: 100px;
     position: relative;
@@ -110,9 +111,6 @@ section{
     grid-template-columns: repeat(2, auto);
     gap: 30px 80px;
     
-}
-.dish{
-    width: 350px;
 }
 
 .img1, .img2{
